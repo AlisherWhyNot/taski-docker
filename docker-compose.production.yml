@@ -29,5 +29,6 @@ services:
     image: alisherwn/taski_gateway
     env_file: .env
     volumes:
+      - static:/staticfiles/
     ports:
       - 8000:80
