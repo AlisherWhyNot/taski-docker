@@ -9,6 +9,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['158.160.10.236', '127.0.0.1', 'localhost', 'yeptask.hopto.org']
 
+
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
     'django.contrib.admin',
